@@ -284,4 +284,7 @@
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">OnePlus/CPH2653EEA/OP5D55L1:15/AP3A.240617.008/V.R4T3.38e5dcd-19631d6-1977a50:user/release-keys</string>
+
 </resources>
