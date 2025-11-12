@@ -4,4 +4,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dodge.mk
+    $(LOCAL_DIR)/lineage_dodge.mk  \
+    $(LOCAL_DIR)/xperience_dodge.mk
