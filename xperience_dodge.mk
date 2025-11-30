@@ -29,3 +29,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2653 \
     SystemDevice=OP5D55L1 \
     SystemName=CPH2653
+
+XPERIENCE_MAINTAINER := Kισżż
