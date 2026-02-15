@@ -5,5 +5,5 @@ bluetooth.device.default_name=OnePlus 13
 vendor.usb.product_string=OnePlus 13
 
 # XPerience  Camera props
-ro.device.front_cam=32
-ro.device.rear_cam=50+50+50
+ro.device.front_cam=32MP
+ro.device.rear_cam=50MP+50MP+50MP
