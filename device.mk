@@ -89,4 +89,5 @@ $(call inherit-product, device/oneplus/sm8750-common/common.mk)
 $(call inherit-product, vendor/oneplus/dodge/dodge-vendor.mk)
 
 # Camera
+$(call soong_config_set,libbinder,binder_vm_size_4mb,true)
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
