@@ -154,7 +154,7 @@ static void wrap_p010(uint16_t* dst, uint16_t* src, uint32_t w2, uint32_t w3, ui
         uint64_t sb, ss;
         if (range_of((uint64_t)src, &sb, &ss)) {
             uint64_t avail  = (sb + ss) - (uint64_t)src;
-            uint32_t new_w5 = (uint32_t)((avail * 2 / 3) / w4);   // w4*w5*1.5 == buffer
+            uint32_t new_w5 = (uint32_t)( (avail * 4) / (9ULL * w4) );
             if (new_w5 > 0 && new_w5 != w5) {
                 LOGI("p010 fix: avail=0x%llx w4=%u w5 %u->%u", (unsigned long long)avail, w4, w5, new_w5);
                 w5 = new_w5;
