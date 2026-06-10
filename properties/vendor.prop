@@ -14,9 +14,13 @@ bluetooth.device.default_name=OnePlus 13
 ro.product.model=OnePlus 13
 ro.product.name=OnePlus 13
 
+# Device name
+ro.product.marketname=OnePlus 13
+
 # USB
 vendor.usb.product_string=OnePlus 13
 
 # XPerience  Camera props
 ro.device.front_cam=32MP
 ro.device.rear_cam=50MP+50MP+50MP
+ro.vendor.oplus.market.name=OnePlus 13
