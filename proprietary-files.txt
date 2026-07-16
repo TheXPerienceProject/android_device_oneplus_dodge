@@ -1651,4 +1651,10 @@ my_product/lib64/liboplusdolbyeffect_4.1.so:product/lib64/liboplusdolbyeffect_4.
 system/etc/dolby_vision.cfg
 vendor/etc/dolby_vision.cfg
 vendor/persist/display/dolby_vision.cfg
+
+# Thermal
+odm/etc/temperature_profile/sys_high_temp_protect_OPPO_23893.xml
+odm/etc/temperature_profile/sys_thermal_control_config.xml
+odm/etc/ThermalServiceConfig/sys_thermal_config.xml
+
 # vi:ft=conf
