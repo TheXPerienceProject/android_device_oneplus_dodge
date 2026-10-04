@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2026 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -23,8 +22,8 @@ PRODUCT_MODEL := CPH2653
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1780491741931 release-keys" \
-    BuildFingerprint=OnePlus/CPH2653EEA/OP5D55L1:16/BP2A.250605.015/V.R4T3.26073a0-1df561-1f78cb:user/release-keys \
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1786066801019 release-keys" \
+    BuildFingerprint=OnePlus/CPH2653EEA/OP5D55L1:16/BP2A.250605.015/V.R4T3.26d97ac-1c1394-1d9854:user/release-keys \
     DeviceName=OP5D55L1 \
     DeviceProduct=CPH2653 \
     SystemDevice=OP5D55L1 \
