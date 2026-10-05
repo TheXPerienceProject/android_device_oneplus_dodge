@@ -1,0 +1,6 @@
+# Device / Market Name
+ro.product.marketname=OnePlus 13
+
+# XPerience Camera props
+ro.device.front_cam=32MP
+ro.device.rear_cam=50MP+50MP+50MP
