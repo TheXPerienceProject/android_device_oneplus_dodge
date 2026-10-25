@@ -27,6 +27,12 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'odm/bin/hw/vendor-oplus-hardware-touch-V2-service',
+        'vendor/lib64/libcamxcoreutils.so',
+        'vendor/lib64/libcamxods.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'odm/etc/init/init.camera_process.rc': blob_fixup()
         .regex_replace('    delete_recursion', '    #delete_recursion'),
     'odm/firmware/fastchg/23821/charging_hyper_mode_config.txt': blob_fixup()
@@ -84,11 +90,6 @@ blob_fixups: blob_fixups_user_type = {
             b'\x95\x19\x40\xf9\xbb\x1e\x40\xb9\xa0\x0e\x40\xb9',
             b'\x95\x19\x40\xf9\xbb\x22\x40\xb9\xa0\x0e\x40\xb9',
         ),
-    (
-        'vendor/lib64/libcamxcoreutils.so',
-        'vendor/lib64/libcamxods.so',
-    ): blob_fixup()
-        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'odm/lib64/libsharebuffer_impl.so': blob_fixup()
         .replace_needed('libutils.so', 'libutils-stock.so')
         .replace_needed('libui.so', 'libui-stock.so'),
